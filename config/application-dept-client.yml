@@ -4,6 +4,8 @@ spring:
 ---
 server:
   port: 8201
+test:
+  extra: hello-dev
 spring:
   profiles: dev
   application: springcloud-config-client-dev
@@ -15,6 +17,8 @@ eureka:
 ---
 server:
   port: 8202
+test:
+  extra: hello-test
 spring:
   profiles: test
   application: springcloud-config-client-test
