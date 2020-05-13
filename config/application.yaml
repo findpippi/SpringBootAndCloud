@@ -3,9 +3,8 @@ server:
 spring:
   application:
     name: springcloud-config
-  # 配置git的绑定
   cloud:
     config:
       server:
-        git:  # 细节： uri， 不是url
-          uri: https://gitee.com/kuangstudy/springcloud-config.git
+        git:
+          uri: https://github.com/findpippi/SpringBootAndCloud.git
