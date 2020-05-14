@@ -18,7 +18,7 @@ eureka:
 server:
   port: 8202
 test:
-  extra: hello-test
+  extra: hello-test-new
 spring:
   profiles: test
   application: springcloud-config-client-test
